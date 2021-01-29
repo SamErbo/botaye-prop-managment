@@ -1,4 +1,4 @@
-# botaye-prop-mangment
+# botaye-prop-managment
 
 Property Management System
 
