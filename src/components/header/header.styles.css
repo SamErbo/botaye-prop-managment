@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  color: #008000;
+  position: sticky;
+}
+
+@media (min-width: 600px) {
+  .header--content {
+    height: 64px;
+  }
+}
+
+.header--content--rightSide {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.header--content--rightSide > .MuiSvgIcon-root {
+  /* margin-right: 15px; */
+  padding: 15px;
+}
+
+.header--rightSide > .MuiSvgIcon-root:hover {
+  color: #053305;
+  transition: 200ms ease-in-out;
+}

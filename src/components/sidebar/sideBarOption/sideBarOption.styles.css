@@ -1,0 +1,17 @@
+.sidebar--item {
+  display: flex;
+  align-items: center;
+  font-size: 0.8125rem;
+  color: #2d952d;
+  cursor: pointer;
+}
+
+.sidebar--item:hover {
+  color: #053305;
+  opacity: 1;
+  transition: 200ms ease-in-out;
+}
+.sidebar--item .MuiSvgIcon-root {
+  font-size: 1.25em !important;
+  padding: 10px;
+}

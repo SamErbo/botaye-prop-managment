@@ -1,0 +1,27 @@
+.dashboard {
+  padding: 48px;
+}
+
+.dashboard--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+
+.dashboard--header--RightSide > h1 {
+  margin-bottom: 5px;
+}
+.headerline {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.date {
+  text-transform: inherit !important;
+}
+
+.date:hover {
+  background-color: inherit;
+}

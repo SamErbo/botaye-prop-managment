@@ -1,0 +1,4 @@
+.mainContent {
+  flex: 0.7;
+  flex-direction: column;
+}
